@@ -8,44 +8,55 @@
     <title>Homework_3</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#"><img src="./img/LogoTop.png" alt="LogoTop"></a>
-      </nav>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Services</a>
-        <a href="#">Features</a>
-        <a><img src="./img/icon.svg" alt="Icon"></a>
-        <a href="#">Team</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <div>
-          <h1>SEO & Digital Marketing For Your Website.</h1>
-          <p>Provide all kind of seo services and help to improve
-            seo ranking. Globally incubate standards.
-          </p>
-            <div>
-              <button>Start Now</button>
-              <button>Watch Video</button>
-            </div>
+    <header class="header">
+      <nav class="navigation container">
+				<div class="navigation_logo">
+					<a href="#"><img src="./img/LogoTop.png" alt="LogoTop" /></a>
+				</div>
+				<div class="navigation__menu">
+					<a href="#" style="color: #f25822; font-weight: 600">Home</a>
+					<a href="#">About Us</a>
+					<a href="#">Services</a>
+					<a href="#">Features</a>
+					<a href="#">Team</a>
+					<a href="#">Blog</a>
+					<a href="#">Contact</a>
+				</div>
+			</nav>
+      <!-- <nav>
+        <a href="#"><img src="./img/LogoTop.png" alt="LogoTop" /></a>
+        <div class="navigation container">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Services</a>
+          <a href="#">Features</a>
+          <a href="#">Team</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
         </div>
-        <img src="./img/pngfind.png" alt="Main image"/>
+      </nav> -->
+    </header>
+    <main class="main">
+      <section class="mainContent container">
+        <div class="mainContent__leftSide">
+          <h1>SEO & Digital Marketing For Your Website.</h1>
+          <p>Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
+          <div class="mainContent__leftSide-btnList">
+            <button type="submit" class="mainContent__leftSide-btnStartNow">Start Now</button>
+            <button type="submit" class="mainContent__leftSide-btnWatchVideo">Watch Video</button>
+          </div>
+        </div>
+        <img src="./img/pngfind.png" alt="Main image" />
       </section>
     </main>
-    <footer>
-      <nav>
-        <a href="#"><img src="./img/logo1.png" alt="Logo"></a>
-        <a href="#"><img src="./img/logo2.png" alt="Logo"></a>
-        <a href="#"><img src="./img/logo3.png" alt="Logo"></a>
-        <a href="#"><img src="./img/logo4.png" alt="Logo"></a>
-        <a href="#"><img src="./img/logo5.png" alt="Logo"></a>
-        <a href="#"><img src="./img/logo6.png" alt="Logo"></a>
+    <footer class="footer">
+      <nav class="logos container">
+        <a href="#"><img src="./img/logo1.png" alt="Logo" /></a>
+        <a href="#"><img src="./img/logo2.png" alt="Logo" /></a>
+        <a href="#"><img src="./img/logo3.png" alt="Logo" /></a>
+        <a href="#"><img src="./img/logo4.png" alt="Logo" /></a>
+        <a href="#"><img src="./img/logo5.png" alt="Logo" /></a>
+        <a href="#"><img src="./img/logo6.png" alt="Logo" /></a>
       </nav>
     </footer>
   </body>
