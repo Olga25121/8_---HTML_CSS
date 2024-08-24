@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url(./fonts/Gilroy-Bold.woff2);
+}
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url(./fonts/Gilroy-Medium.woff2);
+}
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: url(./fonts/Gilroy-Semibold.woff2);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +21,7 @@ body {
   scroll-behavior: smooth;
   background: #FFFFFF;
   color: #888888;
-	font-weight: 400;
+	max-width: 1174px;
 }
 
 img {
@@ -20,8 +33,12 @@ h1, a {
   color: #000000;
 }
 
+form, select {
+  font-family: 'Gilroy-Medium';
+  border: none;
+}
+
 .container {
-  max-width: 1174px;
   margin: 0 auto;
 }
 
@@ -35,7 +52,7 @@ h1, a {
 }
 
 .navigation a {
-  font-family: Gilroy-Medium;
+  font-family: 'Gilroy-Medium';
   font-size: 14px;
   line-height: 16.41px;
 }
@@ -54,25 +71,24 @@ h1, a {
 }
 
 .mainContent__leftSide h1 {
-  font-family: Gilroy-Bold;
+  font-family: 'Gilroy-Bold';
   font-size: 60px;
   line-height: 120%;
   margin-bottom: 17px;
 }
 
 .mainContent__leftSide p {
-  font-family: Gilroy-Medium;
+  font-family: 'Gilroy-Medium';
   font-size: 20px;
-  line-height: 23.44px;
   margin-bottom: 37px;
 }
 
 .mainContent__leftSide-btnList {
- 
+
 }
 
 .mainContent__leftSide-btnList button {
-  font-family: Gilroy-Bold;
+  font-family: 'Gilroy-Bold';
   font-size: 15px;
   padding: 15px 35px;
   border: none;
