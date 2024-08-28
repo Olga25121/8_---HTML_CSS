@@ -21,7 +21,6 @@ body {
   scroll-behavior: smooth;
   background: #FFFFFF;
   color: #888888;
-	max-width: 1174px;
 }
 
 img {
@@ -41,8 +40,8 @@ form, select {
 }
 
 .container {
-  margin: 0 auto;
   max-width: 1174px;
+  margin: 0 auto;
 }
 
 .header {
@@ -51,13 +50,24 @@ form, select {
 }
 
 .navigation {
-
+  display: flex;
+	justify-content: space-between;
+	gap: 10px;
 }
 
 .navigation a {
+  display: inline-block;
+  text-align: right;
   font-family: 'Gilroy-Medium';
   font-size: 14px;
   line-height: 16.41px;
+  padding-bottom: 84px;
+}
+
+.navigation__menu {
+  width: 533px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .btn_Home {
@@ -68,14 +78,18 @@ form, select {
 
 .main {
   margin-bottom: 97px;
-
+  font-weight: 600;
 }
 
 .mainContent {
+  display: flex;
+	justify-content: space-between;
+	padding-bottom: 200px;
 
 }
 
 .mainContent__leftSide {
+  max-width: 556px;
 
 }
 
@@ -90,9 +104,13 @@ form, select {
   font-family: 'Gilroy-Medium';
   font-size: 20px;
   margin-bottom: 37px;
+  max-width: 466px;
 }
 
 .mainContent__leftSide-btnList {
+  display: flex;
+	gap: 22px;
+  align-items: center;
 
 }
 
@@ -120,5 +138,6 @@ form, select {
 }
 
 .logos {
-
+  display: flex;
+	justify-content: space-between;
 }
