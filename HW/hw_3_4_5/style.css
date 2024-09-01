@@ -17,11 +17,11 @@
   text-decoration: none;
 }
 
-body {
+/* body {
   scroll-behavior: smooth;
   background: #FFFFFF;
   color: #888888;
-}
+} */
 
 img {
   display: block;
@@ -140,4 +140,131 @@ form, select {
 .logos {
   display: flex;
 	justify-content: space-between;
+}
+
+/* Task_5 */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #020A18;
+    padding-left: calc(50% - 1170px / 2);
+    padding-right: calc(50% - 1170px / 2);
+    background: #FFF;
+
+}
+
+
+
+.content {
+    display: flex;
+    gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section {
+    display: grid;
+    justify-items: start;
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    padding-left: 29px;
+}
+
+.img__section {
+    padding-top: 40px;
+    margin-bottom: 25px;
+}
+
+.title__section {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.text__section {
+    color: #666;
+    font-size: 15px;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+
+
+
+.aside {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FAFAFA;
+
+}
+
+.title__aside {
+    color: #000;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.text__aside {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 54px;
+    max-width: 682px;
+    
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+
+}
+
+.item {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    
+
+}
+
+.title__item {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+.text__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #AAA;
+    font-size: 15px;
+    line-height: 150%;
+    margin-bottom: 39px;
+    max-width: 310px;
+    
+}
+
+.button__item {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-family: Gilroy-Bold;
+    line-height: 150%;
 }
