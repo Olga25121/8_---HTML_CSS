@@ -142,7 +142,6 @@ span.h2pink {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(33, 22, 22, 0.7);
     width: 100%;
     height: 100%;
     display: flex;
@@ -222,14 +221,15 @@ span.h2pink {
     height:100%;
     top:0;left:0;right:0;
     background-color:rgba(0,0,0,0);
-  }
-  .prod__image_cont:hover::before {
-    background: rgba(58, 56, 56, 0.86);
-  }
-  .prod__image_cont img {
+}
+.prod__image_cont:hover::before {
+    background: #211616B2;
+
+}
+.prod__image_cont img {
     display:block;
-  }
-  .prod__image_cont .btn {
+}
+.prod__image_cont .btn {
     width: 138px;
     height: 43px;
     display: flex;
@@ -250,10 +250,10 @@ span.h2pink {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-  } 
-  .prod__image_cont:hover button {   
+}
+.prod__image_cont:hover button {
     opacity: 1;
-  }
+}
 /*----*/
 
 .card__text {
