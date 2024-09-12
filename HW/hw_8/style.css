@@ -89,14 +89,12 @@ button {
 	max-width: 402px;
 }
 .main__banner-background-RightSide-title h1 {
-	font-family: Lato-Black;
 	font-weight: 900;
 	font-size: 48px;
 	line-height: 57.6px;
 }
 .main__banner-background-RightSide-title h2,
 span {
-	font-family: Lato-Bold;
 	font-weight: 700;
 	font-size: 32px;
 	line-height: 38.4px;
@@ -160,7 +158,6 @@ span {
 	line-height: 19.2px;
 }
 .main__offer-content-cardList-cardCategory-title-card h1 {
-	font-family: Lato-Bold;
 	font-weight: 700;
 	font-size: 24px;
 	color: rgb(241, 109, 127);
@@ -212,7 +209,6 @@ span {
 }
 .main__products-cardList-card p {
 	color: rgb(93, 93, 93);
-	font-family: Lato-Light;
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 17px;
