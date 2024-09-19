@@ -48,11 +48,12 @@ button {
 .container {
 	max-width: 1140px;
 	margin: 0 auto;
+	position: relative;
 }
 
 /*==================== header  ========*/
 .header {
-	 position: relative;
+position: relative;
   overflow: hidden;
 }
 .header__navigation {
@@ -840,7 +841,14 @@ span {
 
 	/*==================== main__subscription  ========*/
 	.main__subscription {
-		max-height: 550px;
+		
+		width: 609.52px;
+height: 550px;
+top: 5988px;
+left: -99px;
+gap: 0px;
+opacity: 0px;
+
 		/* max-width: 609px; */
 		background-size: cover;
 		background-position: 28% 85%;
@@ -850,6 +858,13 @@ span {
 	}
 
 	.main__subscription-leftBlock {
+		width: 343px;
+height: 194px;
+top: 6052px;
+left: 16px;
+gap: 0px;
+opacity: 0px;
+
 		flex-direction: column;
 		max-width: 320px;
 		padding: 64px 0 59px 0;
@@ -864,6 +879,13 @@ span {
 	}
 
 	.main__subscription-rightBlock {
+		width: 341px;
+height: 123.08px;
+top: 6305px;
+left: 16px;
+gap: 0px;
+opacity: 0px;
+
 		padding: 0 0 109px 0;
 	}
 	.main__subscription-rightBlock h1 {
